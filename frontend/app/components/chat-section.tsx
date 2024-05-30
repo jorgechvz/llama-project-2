@@ -13,7 +13,7 @@ export default function ChatSection() {
     reload,
     stop,
   } = useChat({
-    api: process.env.NEXT_PUBLIC_CHAT_API,
+    api: process.env.PUBLIC_CHAT_API,
     headers: {
       "Content-Type": "application/json", // using JSON because of vercel/ai 2.2.26
     },
